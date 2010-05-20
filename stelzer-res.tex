@@ -31,6 +31,14 @@
 }
 
 % A ressection is a main section (<H1>Section</H1>)
+\newenvironment{objsection}[1]{
+  \vspace{4pt}
+  {\fontfamily{phv}\selectfont\Large#1}
+  
+  \vspace{3pt}
+}
+  
+
 \newenvironment{ressection}[1]{
 	\vspace{4pt}
 	{\fontfamily{phv}\selectfont\Large#1}
@@ -101,11 +109,10 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-\begin{ressection}{Objective}
+\begin{objsection}{Objective}          
+I am a software developer with a strong background developing in a Unix environment (Linux/Solaris, specifically). I believe that the proper application of open source technologies along side COTS software is the optimal path for creating applications/infrastructure. I have a well-rounded background as both a systems administrator and a developer. I believe this helps over all system design. I am looking for a forward thinking company where I can help the business by enhancing existing systems and building new, scalable solutions as we identify future business needs.
+\end{objsection}
 
-	\resitem{I am a software developer with a strong background developing in a Unix environment (Linux/Solaris, specifically). I believe that the proper application of open source technologies along side COTS software is the optimal path for creating applications/infrastructure. I have a well-rounded background as both a systems administrator and a developer. I believe this helps over all system design. I am looking for a forward thinking company where I can help the business by enhancing existing systems and building new, scalable solutions as we identify future business needs.}
-	
-\end{ressection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{ressection}{Experience}
