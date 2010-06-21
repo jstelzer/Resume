@@ -1,4 +1,7 @@
 all:
+	pdflatex stelzer-res.tex && rm -f *.aux *.log
+
+debug:
 	pdflatex stelzer-res.tex
 
 html:
