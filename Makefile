@@ -11,7 +11,9 @@ html:
 
 clean:
 	rm -f stelzer-res.pdf stelzer-res.aux stelzer-res.log
+	rm -rf stelzer-res.out stelzer-res/
 
 release: stelzer-res.pdf
 	scp stelzer-res.pdf cynic@neverlight.com:public_html
 	git push origin master
+
