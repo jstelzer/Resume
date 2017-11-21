@@ -19,7 +19,7 @@
 % Name and contact information
 \newcommand{\name}{Jason Stelzer}
 \newcommand{\addr}{532 Arbor Rd, Cheltenham, PA 19012}
-\newcommand{\phone}{(484) 431-5866}
+\newcommand{\phone}{(484) 447-6553}
 \newcommand{\email}{jason.stelzer@gmail.com}
 
 
@@ -111,11 +111,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{ressection}{Experience}
         \begin{ressubsec}{Ticketleap}{Philadelphia, PA}{Software Architect: May 2016--present}
-
-          \ressubitem{Spent time on backend code analysis to track down production performance problems }          
           \ressubitem{Improved the deployment process to get to no down time deploys }
           \ressubitem{Added system monitoring to track down root cause of unhealthy hosts}
-          \ressubitem{Assumed responsibility for the entire product lifecycle from dev to prod to monitoring }
           \ressubitem{Upgraded django 1.7 to 1.11 for security updates as well as support/pci compliance }
         \end{ressubsec}
   
@@ -123,8 +120,6 @@
 
           \ressubitem{Migrated from AWS classic to VPC }
           \ressubitem{Implemented blue/green deployments for zero downtime }
-          \ressubitem{Implemented smoother restarts for our haproxy balancers }
-          \ressubitem{Used terraform to get infrastructure in code }          
         \end{ressubsec}
         
         \begin{ressubsec}{Shoprunner}{Conshocken, PA}{Software Developer/Operations: Nov 2014--Sep 2015}
@@ -132,12 +127,12 @@
           \ressubitem{Implemented monitoring for PCI compliance }
           \ressubitem{Implemented backend secret management for production secrets }
           \ressubitem{Collaborated with developers to define best practices/coding standards/deployment process}
-          \ressubitem{Migrated off of Salesforce}
+
         \end{ressubsec}
         
 
         
-        \begin{ressubsec}{Monetate}{Conshocken, PA}{Software Developer/Operations: Nov 2011--present}
+        \begin{ressubsec}{Monetate}{Conshocken, PA}{Software Developer/Operations: Nov 2011--Nov 2014}
 
           \ressubitem{Implemented visualization system/health dashboard for client specific performance metrics. Implemented backend data collection, loading, and webui front end. }
           \ressubitem{Migrated us off of rightscale and onto our own deployment system. Built/backported/packaged third party software where needed. }
@@ -145,43 +140,21 @@
           \ressubitem{Upgraded django 0.9 + custom patches to django 1.5 for our webui.}
           \ressubitem{Deployed custom Solr search service and corresponding web service to prod, fixed performance and resource requirements issues identified post deploy.}
           \ressubitem{Deployed/configured intrusion detection system for contractual complience with clients. }
-          \ressubitem{Brought up our european data center and configured systems for encrypt at rest compliance via ansible. }
         \end{ressubsec}
 
 
         \begin{ressubsec}{Sungard Availability Services}{Philadelphia, PA}{Senior Software Developer: Sep 2010--Nov 2011}
 
           \ressubitem{Designed and developed automated deployment process for our cloud automation software using puppet. }
-          \ressubitem{Configured and released the cloud platform in US and UK data centers. }
-          \ressubitem{Designed and developed django pages in python/javascript for customers to manage their assets in the cloud. }
-          \ressubitem{Developed distributed workflow system used to execute provisioning and deploy customer virtual datacenters in our cloud. }
         \end{ressubsec}
 
         \begin{ressubsec}{Health Market Science}{King of Prussia, PA}{Software Developer/Technical Lead: July 2003-- Sep 2010}
 
-          \ressubitem{Developed algorithms to automate the
-            standardization, matching, and integration of 5,000
-            incoming data sources representing 20 MM unique entities
-            across 4 TB of data.  Software used a custom distributed
-            processing engine to implement fuzzy matching algorithms
-            that ranged from simplistic fuzzy matching
-            (e.g. Levenshtein edit distance) to complex multi-step
-            criteria. }
+          \ressubitem{Developed data matching engine to match practitioner data across many sources of state/federal licencing information.}
 
           \ressubitem{Created clustered application to create an
             address standardization/geocoding service as a centralized
             service for core HMS applications.}
-
-          \ressubitem{Created and designed software to facilitate
-            moving from a large, legacy code base to a more granular
-            SOA architecture composed of loosely coupled applications
-            such that components could be reused and shared across
-            applications.}
-
-          \ressubitem{Created documentation and tutorials to assist in
-            training new employees and share expertise with existing
-            staff.}
-
           \ressubitem{Designed and developed J2EE applications to
             augment our core Reference Data projects and custom
             solutions for clients needing assistance assimilating our
@@ -192,79 +165,24 @@
             Inline perl extensions as well as shared libraries written
             in C/C++ that called into the J2EE stack via IIOP.}
 
-          \ressubitem{Created web services layer to facilitate
-            interoperability between different technology stacks
-            (ruby, java, perl).}
-
-          \ressubitem{Oversaw development for initial install of HMS
-            DataPump software at vendor data center on vendor
-            architecture.}
-
-          \ressubitem{Utilized multiple languages (ruby, clojure,
-            perl) to prototype applications and explore the
-            feasibility of various applications.}
-
-          \ressubitem{Developer on project for creating a distributed
-            proxy network implemented in php, perl, java and C.}
-
-          \ressubitem{Created java plugins for jboss so that active
-            directory users could authenticate with our applications
-            as part of a single sign on strategy.}
-
         \end{ressubsec}
 
         \begin{ressubsec}{The Sycamore Group}{Fort Washington, PA}{Unix Administrator/Software Developer: November 1999 -- June 2003}
 
           \ressubitem{Administered Unix (Sun Solaris) and Linux (Red Hat) servers}
+          
+          \ressubitem{Software architect and lead developer
+            for VWR Scientific Products ecommerce project }
 
-          \ressubitem{Created B2B web application}
-
-          \ressubitem{Primary software architect and lead developer
-            for VWR Scientific Products ecommerce project developed in
-            OO Perl as well as integrating with internal java systems
-            and partner web sites. }
-
-          \ressubitem{Designed and implemented application for the
-            design of custom DNA strands (oligos/fretprobes/peptides)
-            that integrated with the ecommerce site for ordering. This
-            was integrated into the b2b site via SOAP.}
-
-          \ressubitem{Created and executed plan to load test and
-            subsequently tune Netscape Application Server cluster for
-            IBN (Investor Broadcast Network). System was subsequently
-            able to scale from a hard limit of a few hundred
-            simultaneous clients to thousands. Tuning effectively
-            removed existing bottlenecks and allowed the same hardware
-            to scale to entirely utilize available bandwidth. }
-
-          \ressubitem{Designed and implemented a single-sign on
-            solution for account management and replication for all
-            internal users and developers for The Sycamore Group
-            Included the installation and configuration of an LDAP
-            directory, the design and development of web-based
-            administration interfaces. System allowed for single
-            source management of Unix and Windows accounts and
-            security. Included the integration of corporate mail and
-            group discussion system. }
 
         \end{ressubsec}
 
         \begin{ressubsec}{SN.com}{Rosemont, PA}{Unix Administrator: 1998-1999}
-
-          \ressubitem{Configured/Maintained servers}
-
           \ressubitem{Administered core application services (dns, mail, http, ldap)}
-
-          \ressubitem{Planned capacity, ensured fault tolerance}
-
         \end{ressubsec}
 
         \begin{ressubsec}{Vertical Net}{Willow Grove, PA}{Unix Administrator: 1997-1998}
-
-          \ressubitem{performed systems monitoring}
-
           \ressubitem{configured core unix services and managed accounts}
-
         \end{ressubsec}
 
 \end{ressection}
@@ -278,9 +196,9 @@
 
   \begin{reslist}{Computer Languages:}
 
-    \ressubitem{Proficient in Java, Perl, C, C++,  UNIX Shells}
+    \ressubitem{Proficient in Python, Java, Perl, C, C++,  UNIX Shells}
 
-    \ressubitem{Familiar with \LaTeX, Clojure, Ruby, Python, Objective-c}
+    \ressubitem{Familiar with \LaTeX, Clojure, Ruby, Python, Objective-c, Swift}
 
   \end{reslist}
 
