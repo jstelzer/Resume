@@ -109,7 +109,51 @@
 \vspace{8 pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
+\begin{ressection}{Objective}
+
+  \resitem{\textbf{Goal:} Since joining 2011, I've worked primarily in the cloud. Over the years, I've come to embrace things like infrastructure as code, immutable infrastructure, secure centralized IDP and continuous deployments. I'm looking for a place to continue to learn new skills as well as foster best practices.}
+  
+\end{ressection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{ressection}{Skills}
+
+  \resitem{\textbf{Data:} Hadoop(AWS EMR), Redshift, Looker, MySql, SQL Server}
+
+  \resitem{\textbf{Cloud:} AWS (insert long list of services here), some Azure and Office365, Okta, Google Suite}
+
+  \resitem{\textbf{Operating Systems:} Linux (Gentoo, Red Hat, and
+    Debian), Mac OS X, UNIX (several variants), Windows 98/2000/XP/7}
+
+  \begin{reslist}{Computer Languages:}
+
+    \ressubitem{Proficient in Python, Java, Perl, C, C++,  UNIX Shells}
+
+    \ressubitem{Familiar with \LaTeX, Clojure, Ruby, Objective-c, Swift, Rust}
+
+  \end{reslist}
+
+  \begin{reslist}{Tools and Systems}
+
+    \ressubitem{Proficient in Apache, BIND, CVS/RCS, SVN, Git, Jboss
+      (4.x), MySQL, Maven, Make, GnuPG, SSHD, VI, Emacs, NFS, Eclipse, Nginx}
+
+    \ressubitem{Familiar with Kerberos, NFS, OpenLDAP, OpenSSL, Postfix, Samba}
+
+  \end{reslist}
+
+
+\end{ressection}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{ressection}{Experience}
+        \begin{ressubsec}{Dell/Boomi}{Chesterbrook, PA}{Principal Devops: Jan 2018--Jan 2019}
+          \ressubitem{Built tools for cloud migration and designed new deployment processes to increase speed to the production pipeline. }
+        \end{ressubsec}
+  
         \begin{ressubsec}{FS Investments}{Philadelphia, PA}{Software Architect: Jan 2018--Jan 2019}
           \ressubitem{Improved legacy software for windows to enable vpn users to work remotely }
           \ressubitem{Planned migration from on prem to cloud.}
@@ -141,45 +185,25 @@
         
         \begin{ressubsec}{Monetate}{Conshocken, PA}{Software Developer/Operations: Nov 2011--Nov 2014}
 
-          \ressubitem{Implemented visualization system/health dashboard for client specific performance metrics. Implemented backend data collection, loading, and webui front end. }
-          \ressubitem{Migrated us off of rightscale and onto our own deployment system. Built/backported/packaged third party software where needed. }
-          \ressubitem{Backported python2.7 to centos 5 for our python2.5 upgrade. Tested system components on the new python version.}
-          \ressubitem{Upgraded django 0.9 + custom patches to django 1.5 for our webui.}
-          \ressubitem{Deployed custom Solr search service and corresponding web service to prod, fixed performance and resource requirements issues identified post deploy.}
-          \ressubitem{Deployed/configured intrusion detection system for contractual complience with clients. }
+          \ressubitem{Ex unix admin + software dev + infra as an API = devops before it was a thing. }
         \end{ressubsec}
 
 
         \begin{ressubsec}{Sungard Availability Services}{Philadelphia, PA}{Senior Software Developer: Sep 2010--Nov 2011}
 
-          \ressubitem{Designed and developed automated deployment process for our cloud automation software using puppet. }
+          \ressubitem{Sungard was implementing their own white glove cloud offering. I built automation around the infrastructure config managment. }
         \end{ressubsec}
 
         \begin{ressubsec}{Health Market Science}{King of Prussia, PA}{Software Developer/Technical Lead: July 2003-- Sep 2010}
 
           \ressubitem{Developed data matching engine to match practitioner data across many sources of state/federal licencing information.}
-
-          \ressubitem{Created clustered application to create an
-            address standardization/geocoding service as a centralized
-            service for core HMS applications.}
-          \ressubitem{Designed and developed J2EE applications to
-            augment our core Reference Data projects and custom
-            solutions for clients needing assistance assimilating our
-            data.}
-
-          \ressubitem{Designed and developed the infrastructure for
-            integrating our legacy systems with our J2EE systems via
-            Inline perl extensions as well as shared libraries written
-            in C/C++ that called into the J2EE stack via IIOP.}
-
         \end{ressubsec}
 
         \begin{ressubsec}{The Sycamore Group}{Fort Washington, PA}{Unix Administrator/Software Developer: November 1999 -- June 2003}
 
           \ressubitem{Administered Unix (Sun Solaris) and Linux (Red Hat) servers}
           
-          \ressubitem{Software architect and lead developer
-            for VWR Scientific Products ecommerce project }
+          \ressubitem{Software architect and lead developer for VWR Scientific Products ecommerce project }
 
 
         \end{ressubsec}
@@ -195,32 +219,6 @@
 \end{ressection}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{ressection}{Skills}
-
-  \resitem{\textbf{Operating Systems:} Linux (Gentoo, Red Hat, and
-    Debian), Mac OS X, UNIX (several variants), Windows 98/2000/XP/7}
-
-  \begin{reslist}{Computer Languages:}
-
-    \ressubitem{Proficient in Python, Java, Perl, C, C++,  UNIX Shells}
-
-    \ressubitem{Familiar with \LaTeX, Clojure, Ruby, Python, Objective-c, Swift}
-
-  \end{reslist}
-
-  \begin{reslist}{Tools and Systems}
-
-    \ressubitem{Proficient in Apache, BIND, CVS/RCS, SVN, Git, Jboss
-      (4.x), MySQL, Maven, Make, GnuPG, SSHD, VI, Emacs, NFS, Eclipse}
-
-    \ressubitem{Familiar with Kerberos, NFS, OpenLDAP, OpenSSL, Postfix, Samba}
-
-  \end{reslist}
-
-
-\end{ressection}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{ressection}{Interests/Hobbies}
@@ -229,13 +227,11 @@
     gaining access to servers via portknocking for less technical
     people (specifically, my wife).}
 
-  \resitem{Cloud computing (have AWS account as well as GAE), have
-    prototyped basic applications and evaluated leveraging the virtual
-    hardware to assist in tasks where we lack infrastructure on hand.}
-
   \resitem{Iphone and OS X development.}
 
   \resitem{Portable document markup. eg: \href{https://github.com/jstelzer/Resume/blob/master/stelzer-res.tex}{LaTex}}
+  
+  \resitem{Provable design vetting. eg: \href{https://lamport.azurewebsites.net/tla/high-level-view.html}{TLA+}}
 
 \end{ressection}
 
