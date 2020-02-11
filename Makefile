@@ -1,7 +1,7 @@
 all: jason-stelzer-resume.pdf 
 
 jason-stelzer-resume.pdf: jason-stelzer-resume.tex
-	pdflatex jason-stelzer-resume.tex && rm -f *.aux *.log
+	pdflatex jason-stelzer-resume.tex && rm -f *.aux *.log *.out
 
 debug:
 	pdflatex jason-stelzer-resume.tex
