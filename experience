@@ -1,0 +1,89 @@
+\begin{ressection}{Experience}
+        \begin{ressubsec}{Dell/Boomi}{Chesterbrook, PA}{Principal Devops: Jan 2018--Jan 2019}
+          \ressubitem{Built tools for cloud migration. }
+          \ressubitem{Automated legacy systems via ansible.}
+          \ressubitem{Refined system monitoring and defined kpi metrics for measuring performance/availability. }          
+        \end{ressubsec}
+  
+        \begin{ressubsec}{FS Investments}{Philadelphia, PA}{Software Architect: Jan 2018--Jan 2019}
+          \ressubitem{Improved legacy software for windows to enable vpn users to work remotely }
+          \ressubitem{Planned migration from on prem to cloud.}
+          \ressubitem{Implemented infrastructure as code and immutable infrastructure. }
+          \ressubitem{Introduced system monitoring and defined kpi metrics for application performance. }          
+        \end{ressubsec}
+  
+        \begin{ressubsec}{Ticketleap}{Philadelphia, PA}{Software Architect: May 2016--Jan 2018}
+          \ressubitem{Improved the deployment process to get to no down time deploys }
+          \ressubitem{Added system monitoring to track down root cause of unhealthy hosts}
+          \ressubitem{Upgraded django 1.7 to 1.11 for security updates as well as support/pci compliance }
+        \end{ressubsec}
+  
+        \begin{ressubsec}{Cloudmine}{Philadelphia, PA}{Senior operations developer: Sep 2015--May 2016}
+
+          \ressubitem{Migrated from AWS classic to VPC }
+          \ressubitem{Implemented blue/green deployments for zero downtime }
+        \end{ressubsec}
+        
+        \begin{ressubsec}{Shoprunner}{Conshocken, PA}{Software Developer/Operations: Nov 2014--Sep 2015}
+
+          \ressubitem{Implemented monitoring for PCI compliance }
+          \ressubitem{Implemented backend secret management for production secrets }
+          \ressubitem{Collaborated with developers to define best practices/coding standards/deployment process}
+
+        \end{ressubsec}
+        
+
+        
+        \begin{ressubsec}{Monetate}{Conshocken, PA}{Software Developer/Operations: Nov 2011--Nov 2014}
+
+          \ressubitem{Implemented visualization system/health dashboard for client specific performance metrics. Implemented backend data collection, loading, and webui front end. }
+          \ressubitem{Migrated us off of rightscale and onto our own deployment system. Built/backported/packaged third party software where needed. }
+          \ressubitem{Backported python2.7 to centos 5 for our python2.5 upgrade. Tested system components on the new python version.}
+          \ressubitem{Upgraded django 0.9 + custom patches to django 1.5 for our webui.}
+          \ressubitem{Deployed custom Solr search service and corresponding web service to prod, fixed performance and resource requirements issues identified post deploy.}
+          \ressubitem{Deployed/configured intrusion detection system for contractual complience with clients. }
+        \end{ressubsec}
+
+
+        \begin{ressubsec}{Sungard Availability Services}{Philadelphia, PA}{Senior Software Developer: Sep 2010--Nov 2011}
+
+          \ressubitem{Designed and developed automated deployment process for our cloud automation software using puppet. }
+        \end{ressubsec}
+
+        \begin{ressubsec}{Health Market Science}{King of Prussia, PA}{Software Developer/Technical Lead: July 2003-- Sep 2010}
+
+          \ressubitem{Developed data matching engine to match practitioner data across many sources of state/federal licencing information.}
+
+          \ressubitem{Created clustered application to create an
+            address standardization/geocoding service as a centralized
+            service for core HMS applications.}
+          \ressubitem{Designed and developed J2EE applications to
+            augment our core Reference Data projects and custom
+            solutions for clients needing assistance assimilating our
+            data.}
+
+          \ressubitem{Designed and developed the infrastructure for
+            integrating our legacy systems with our J2EE systems via
+            Inline perl extensions as well as shared libraries written
+            in C/C++ that called into the J2EE stack via IIOP.}
+
+        \end{ressubsec}
+
+        \begin{ressubsec}{The Sycamore Group}{Fort Washington, PA}{Unix Administrator/Software Developer: November 1999 -- June 2003}
+
+          \ressubitem{Administered Unix (Sun Solaris) and Linux (Red Hat) servers}
+          
+          \ressubitem{Software architect and lead developer
+            for VWR Scientific Products ecommerce project }
+
+
+        \end{ressubsec}
+
+        \begin{ressubsec}{SN.com}{Rosemont, PA}{Unix Administrator: 1998-1999}
+          \ressubitem{Administered core application services (dns, mail, http, ldap)}
+        \end{ressubsec}
+
+        \begin{ressubsec}{Vertical Net}{Willow Grove, PA}{Unix Administrator: 1997-1998}
+          \ressubitem{configured core unix services and managed accounts}
+        \end{ressubsec}
+
