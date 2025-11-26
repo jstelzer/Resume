@@ -20,7 +20,7 @@
 \newcommand{\name}{Jason Stelzer}
 \newcommand{\addr}{532 Arbor Rd, Cheltenham, PA 19012}
 \newcommand{\phone}{(484) 447-6553}
-\newcommand{\email}{jason.stelzer@gmail.com}
+\newcommand{\email}{jason@neverlight.com}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,9 +109,9 @@
 \vspace{8 pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-\begin{ressection}{Objective}
+\begin{ressection}{About}
 
-  \resitem{\textbf{Goal:} Since around 2011, I've worked primarily in the cloud. Over the years, I've come to embrace things like infrastructure as code, immutable infrastructure, secure centralized IDP and continuous deployments. I'm looking for a place to continue to learn new skills as well as foster best practices.}
+  \resitem{I am looking for an environment where I can build, then rely on things like infrastructure as code, immutable infrastructure, secure centralized IDP and continuous deployment. I'm looking for a place to continue to learn new skills as well as define newer, better ways of doing things.}
   
 \end{ressection}
 
@@ -128,20 +128,12 @@
 
   \begin{reslist}{Computer Languages:}
 
-    \ressubitem{Proficient in Python, Java, Perl, C, C++,  UNIX Shells}
+    \ressubitem{Proficient in Python, Java, Perl,  UNIX Shells}
 
-    \ressubitem{Familiar with \LaTeX, Clojure, Ruby, Objective-c, Swift, Rust, html, javascript}
-
-  \end{reslist}
-
-  \begin{reslist}{Tools and Systems}
-
-    \ressubitem{Proficient in Apache, BIND, CVS/RCS, SVN, Git, Jboss
-      (4.x), MySQL, Maven, Make, GnuPG, SSHD, VI, Emacs, NFS, Eclipse, Nginx}
-
-    \ressubitem{Familiar with Kerberos, NFS, OpenLDAP, OpenSSL, Postfix, Samba}
+    \ressubitem{Familiar with C, C++, Rust, \LaTeX, Clojure, Ruby, Objective-c, Swift, html, javascript}
 
   \end{reslist}
+
 
 
 \end{ressection}
@@ -150,9 +142,27 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{ressection}{Experience}
-        \begin{ressubsec}{Dell/Boomi}{Chesterbrook, PA}{Principal Devops: Jan 2019--Present}
+          \begin{ressubsec}{Moodys}{King of Prussia, PA}{Director (Devops): Sep 2022--Jun 2024}
+          \ressubitem{Undertook terraform .12-1.6 upgrade across multiple workspaces with shared state.}
+          \ressubitem{Implemented database migrations as a versioned reproducible process.}            
+          \ressubitem{Working on transitioning from ECS to EKS.}
+          \ressubitem{Containerizing applications.}
+          \ressubitem{Prototyped Kube infra for app migration.}
+        \end{ressubsec}
+
+        \begin{ressubsec}{Chariot Solutions}{Ft Washington, PA}{Consultant: Feb 2021--Sep 2022}
+          \ressubitem{Continuous improvements to clients data pipeline. }
+          \ressubitem{Undertook terraform .12-.15 upgrade across multiple workspaces with shared state.}
+          \ressubitem{Built out dockerized services/dev environments to standardize onboarding and reproducible builds.}
+          \ressubitem{Stood up jenkins pipelines for new projects to run test/automate CI/CD.}
+          \ressubitem{Data pipeline consultant supporting redshift, query analysis for Penn Interactive.}          
+        \end{ressubsec}
+
+  
+        \begin{ressubsec}{Dell/Boomi}{Chesterbrook, PA}{Principal Devops: Jan 2019--Feb 2021}
           \ressubitem{Built tools for cloud migration and designed new deployment processes to increase speed to the production pipeline. }
           \ressubitem{Lead effort to formalize and automate security patching to meet fedramp requirements.}
+          \ressubitem{Utilized ansible to build pre-hardened images with baked in secops requested monitoring.}
         \end{ressubsec}
   
         \begin{ressubsec}{FS Investments}{Philadelphia, PA}{Software Architect: Jan 2018--Jan 2019}
@@ -163,8 +173,8 @@
         \end{ressubsec}
   
         \begin{ressubsec}{Ticketleap}{Philadelphia, PA}{Software Architect: May 2016--Jan 2017}
-          \ressubitem{Improved the deployment process to get to no down time deploys }
-          \ressubitem{Added system monitoring to track down root cause of unhealthy hosts}
+          \ressubitem{Improved the deployment process to get to no down time deploys. }
+          \ressubitem{Added system monitoring to track down root cause of unhealthy hosts.}
           \ressubitem{Upgraded django 1.7 to 1.11 for security updates as well as support/pci compliance }
         \end{ressubsec}
   
@@ -186,53 +196,29 @@
         
         \begin{ressubsec}{Monetate}{Conshocken, PA}{Software Developer/Operations: Nov 2011--Nov 2014}
 
-          \ressubitem{Ex unix admin + software dev + infra as an API = devops before it was a thing. }
+          \ressubitem{Created internal tools for teams to use to get visibility into their app performance. }
+          \ressubitem{Created tools to build parallel sets of infra to stress test in preparation for expected high black friday traffic.}
+          \ressubitem{Analysed replay performance, identified hotspots, followed up with teams to mitigate issues.}
+          \ressubitem{Stood up infra in EU as we expanded our organization and kept performance for EU customers at a level they expected.}
         \end{ressubsec}
 
 
-        \begin{ressubsec}{Sungard Availability Services}{Philadelphia, PA}{Senior Software Developer: Sep 2010--Nov 2011}
-
-          \ressubitem{Sungard was implementing their own white glove cloud offering. I built automation around the infrastructure config managment. }
-        \end{ressubsec}
-
-        \begin{ressubsec}{Health Market Science}{King of Prussia, PA}{Software Developer/Technical Lead: July 2003-- Sep 2010}
-
-          \ressubitem{Developed data matching engine to match practitioner data across many sources of state/federal licencing information.}
-        \end{ressubsec}
-
-        \begin{ressubsec}{The Sycamore Group}{Fort Washington, PA}{Unix Administrator/Software Developer: November 1999 -- June 2003}
-
-          \ressubitem{Administered Unix (Sun Solaris) and Linux (Red Hat) servers}
-          
-          \ressubitem{Software architect and lead developer for VWR Scientific Products ecommerce project }
-
-
-        \end{ressubsec}
-
-        \begin{ressubsec}{SN.com}{Rosemont, PA}{Unix Administrator: 1998-1999}
-          \ressubitem{Administered core application services (dns, mail, http, ldap)}
-        \end{ressubsec}
-
-        \begin{ressubsec}{Vertical Net}{Willow Grove, PA}{Unix Administrator: 1997-1998}
-          \ressubitem{configured core unix services and managed accounts}
-        \end{ressubsec}
+\end{ressection}
+\begin{ressection}{Historic Positions}
+  \resitem{Further position details availabile back to 1998 on request.}
 
 \end{ressection}
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%
 \begin{ressection}{Interests/Hobbies}
-
-  \resitem{Computer security and cryptography. Created an OS X gui for
-    gaining access to servers via portknocking for less technical
-    people (specifically, my wife).}
 
   \resitem{Iphone and OS X development.}
 
   \resitem{Portable document markup. eg: \href{https://github.com/jstelzer/Resume/blob/master/stelzer-res.tex}{LaTex}}
   
   \resitem{Provable design vetting. eg: \href{https://lamport.azurewebsites.net/tla/high-level-view.html}{TLA+}}
+  
+  \resitem{Rust (the language not the game). }
 
 \end{ressection}
 
